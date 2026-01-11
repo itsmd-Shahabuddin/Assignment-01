@@ -8,55 +8,63 @@
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
 }
-
 header{
-   background-color: white;
-
-}
- .navbar{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 120px;
     width: 1600px;
     height: 92px;
-    justify-content: space-between;
-    display: flex;
-    border-bottom:1px;
-    margin: 0 auto;
-    align-items: center;
-    padding: 12px 16px;
-    flex-direction:row;
+    background:rgba(255, 255, 255, 1)
 }
-.navbar .menu{
-        display: flex;
-        gap: 32px;
-        align-items: center;
-        list-style: none;
-        justify-content: center;
-    }
-.navbar .menu a{
-    text-decoration: none;
-    font-size: 16px;
-    line-height: 152px;
-    font-weight: 500;
-    color:black;
-    margin: 0 auto;
+.log{
+    width: 139px;
+    height: 60px;
+    cursor: pointer;
 }
 
-.navbar .btn{
-        background-color:#469165;
-        width: 164px;
-        height: 44px;
-        border-radius: 4px;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        border: none;
-        cursor: pointer;
-        font-weight: 600;
-        font-size: 16px;
+li a{
+    text-decoration: none;
+    display: inline-block;
+    list-style: none;
+    color: black;
 }
+
+.nav-menu{
+    list-style: none;
+}
+.nav-menu li{
+    display: inline-block;
+    font-size: 16 px;
+    font-weight: 500;
+    padding: 34px 32px;
+    
+}
+.nav-menu li a:hover{
+    color:#469165;
+}
+.nav-btn{
+    background-color:#469165;
+    width: 164px;
+    height: 44px;
+    border-radius: 4px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    color: white;
+}
+.nav-btn:hover{
+    color:darkgrey;
+}
+
 #banner{
     background:url("../images/hero-bg.png")
     no-repeat center center/cover;
-    width: 2046px;
+    width: 1600px;
     object-fit: cover;
     height: 674px;
     display:flex; 
@@ -65,11 +73,20 @@ header{
 
 
 #banner .hero-section{
-    width: 1360px;
-    height: 295px;
+    width: 1600px;
+    height: 674px;
     margin:115px 120px 180px 120px;
 
 }
+#banner .hero-container{
+
+    width: 1360px;
+    height: 379px;
+    align-items: center;
+    margin:115px 120 px 180px 120px;
+
+}
+
 #banner .btn2{
     background-color:white;
     width: 229px;
@@ -84,7 +101,9 @@ header{
     justify-content:center;
     margin:0 auto;
     color: #469165;
-
+}
+#banner .btn2:hover{
+    color:darkgrey;
 }
 #banner .hero-section .t1{
     font-weight:700;
@@ -117,7 +136,15 @@ header{
     font-style: Regular;
 }
 
-#banner .btn3{
+#banner .btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;                
+    margin-top: 32px;
+}
+
+#banner .hero-container .btn3{
     color:white;
     width: 251px;
     height: 52px;
@@ -125,31 +152,30 @@ header{
     cursor: pointer;
     font-weight: 600;
     font-size: 16px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin:0 auto;
     background-color: #469165;
-
+    border: none;
+    border-radius: 4px;
 }
+
 #banner .btn4{
-    box-sizing: border-box;
     border: 1px solid white; 
     border-radius: 4px;
     width: 198px;
     height: 52px;
     padding: 12px 16px;
     cursor: pointer;
-    font-weight: 600px;
+    font-weight: 600;
     font-size: 16px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin:0 auto;
     background-color: transparent;
     color: white;
-
 }
+#banner .btn3:hover{
+    color:darkgrey;
+}
+#banner .btn4:hover{
+    color:darkgrey;
+}
+
 #note{
     width: 1600px;
     height: 448px;
@@ -184,10 +210,9 @@ header{
     justify-content:center;
     margin:0 auto;
 }
-}
 #note .card .image-wrap .image-c{
 
     width: 32px;
     height: 32px;
     
-}
+} 
