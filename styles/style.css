@@ -1,54 +1,59 @@
-*{
-    margin:0px;
-    padding:0 px;
+* {
+    margin: 0px;
+    padding: 0 px;
     box-sizing: border-box;
 }
 
 .inter-font {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
 }
-header{
-    display:flex;
+
+header {
+    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 120px;
     width: 1600px;
     height: 92px;
-    background:rgba(255, 255, 255, 1)
+    background: rgba(255, 255, 255, 1)
 }
-.log{
+
+.log {
     width: 139px;
     height: 60px;
     cursor: pointer;
 }
 
-li a{
+li a {
     text-decoration: none;
     display: inline-block;
     list-style: none;
     color: black;
 }
 
-.nav-menu{
+.nav-menu {
     list-style: none;
 }
-.nav-menu li{
+
+.nav-menu li {
     display: inline-block;
     font-size: 16 px;
     font-weight: 500;
     padding: 34px 32px;
-    
+
 }
-.nav-menu li a:hover{
-    color:#469165;
+
+.nav-menu li a:hover {
+    color: #469165;
 }
-.nav-btn{
-    background-color:#469165;
+
+.nav-btn {
+    background-color: #469165;
     width: 164px;
     height: 44px;
     border-radius: 4px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     border: none;
@@ -57,38 +62,38 @@ li a{
     font-size: 16px;
     color: white;
 }
-.nav-btn:hover{
-    color:darkgrey;
+
+.nav-btn:hover {
+    color: darkgrey;
 }
 
-#banner{
-    background:url("../images/hero-bg.png")
-    no-repeat center center/cover;
+#banner {
+    background: url("../images/hero-bg.png") no-repeat center center/cover;
     width: 1600px;
     object-fit: cover;
     height: 674px;
-    display:flex; 
+    display: flex;
 
 }
 
 
-#banner .hero-section{
+#banner .hero-section {
     width: 1600px;
     height: 674px;
-    margin:115px 120px 180px 120px;
+    padding: 115px 120px 180px 120px;
 
 }
-#banner .hero-container{
+
+#banner .hero-container {
 
     width: 1360px;
     height: 379px;
     align-items: center;
-    margin:115px 120 px 180px 120px;
 
 }
 
-#banner .btn2{
-    background-color:white;
+#banner .btn2 {
+    background-color: white;
     width: 229px;
     height: 35px;
     border-radius: 1000px;
@@ -96,59 +101,64 @@ li a{
     cursor: pointer;
     font-weight: 500;
     font-size: 16px;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
     color: #469165;
+    border: none;
 }
-#banner .btn2:hover{
-    color:darkgrey;
+
+#banner .btn2:hover {
+    color: darkgrey;
 }
-#banner .hero-section .t1{
-    font-weight:700;
+
+#banner .hero-section .t1 {
+    font-weight: 700;
     font-size: 72px;
     line-height: 84px;
-    color:white;
-     display:flex;
-    align-items:center;
-    justify-content:center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
-#banner .hero-section .t2{
-    font-weight:700;
+
+#banner .hero-section .t2 {
+    font-weight: 700;
     font-size: 72px;
     line-height: 84px;
-    color:#469165;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    color: #469165;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-#banner .hero-text{
-    font-weight:400px;
+
+#banner .hero-text {
+    font-weight: 400px;
     font-size: 18px;
     line-height: 24px;
     color: rgba(255, 255, 255, 1);
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     letter-spacing: 0%;
-    font-style: Regular;
 }
 
-#banner .btn-div{
+#banner .btn-div {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;                
+    gap: 16px;
     margin-top: 32px;
 }
-.nav-btn-div:hover{
-    color:darkgrey;
+
+.nav-btn-div:hover {
+    color: darkgrey;
 }
 
-#banner .hero-container .btn3{
-    color:white;
+#banner .hero-container .btn3 {
+    color: white;
     width: 251px;
     height: 52px;
     padding: 12px 16px;
@@ -160,8 +170,8 @@ li a{
     border-radius: 4px;
 }
 
-#banner .btn4{
-    border: 1px solid white; 
+#banner .btn4 {
+    border: 1px solid white;
     border-radius: 4px;
     width: 198px;
     height: 52px;
@@ -172,58 +182,61 @@ li a{
     background-color: transparent;
     color: white;
 }
-#banner .btn3:hover{
-    color:darkgrey;
+
+#banner .btn3:hover {
+    color: darkgrey;
 }
-#banner .btn4:hover{
-    color:darkgrey;
+
+#banner .btn4:hover {
+    color: darkgrey;
 }
-#note{
+
+#note {
     max-width: 1600px;
     padding: 120px 120px 120px 120px;
 }
 
-.container{
+.container {
     width: 1360px;
     height: 448px;
 }
 
-.container-head{
+.container-head {
     text-align: center;
     margin-bottom: 44px;
     margin-right: 120px;
     margin-left: 120px;
 }
 
-.container-head h1{
+.container-head h1 {
     font-size: 48px;
     font-weight: 700;
     color: #001931;
 }
 
-.container-head p{
-    font-style: Regular;
+.container-head p {
     font-size: 16px;
     font-weight: 400;
     color: #627382;
 }
 
-.card{
+.card {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: stretch;
 }
 
 .card-box{
-    width:322px;
-    height:300px;
+    width: 322px;
+    height: 300px;
     padding: 24px;
     text-align: center;
     border-radius: 8px;
     box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
     background: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
 }
-
 
 .icon{
     width: 60px;
@@ -234,19 +247,17 @@ li a{
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-}
-
-.image-c{
-    width: 32px;
-    height: 32px;
+    margin-top: auto;        
+    margin-bottom: 16px;   
 }
 
 .card-box h3{
     font-size: 24px;
     font-weight: 600;
+    margin-top: 0;      
 }
 
-.card-box p{
+.card-box p {
     font-size: 16px;
     font-weight: 400;
     color: #627382;
@@ -255,7 +266,7 @@ li a{
 #brain {
     width: 1600px;
     height: 840px;
-    padding:0px 120px 0px 120px;
+    padding: 0px 120px 0px 120px;
 }
 
 #brain .container-b {
@@ -268,8 +279,8 @@ li a{
 
 #brain .image img {
     width: 600px;
-   height: 600px;
-   border-radius: 12px;
+    height: 600px;
+    border-radius: 12px;
 }
 
 #brain .list {
@@ -287,7 +298,7 @@ li a{
     font-weight: 700;
     line-height: 58px;
     margin: 0;
-    color:#001931;
+    color: #001931;
 }
 
 #brain p {
@@ -301,7 +312,7 @@ li a{
 
 #brain li {
     position: relative;
-    padding-left: 26px; 
+    padding-left: 26px;
     margin-bottom: 16px;
     color: #001931;
     font-size: 16px;
@@ -322,7 +333,7 @@ li a{
 
 }
 
-.cta-wrap{
+.cta-wrap {
     height: 506px;
     max-width: 1600px;
     display: flex;
@@ -330,10 +341,10 @@ li a{
     padding: 2px 120px 120px 120px;
 }
 
-.cta-card{
-    
-    width:1360px;
-    background: #F7F6F2;              
+.cta-card {
+
+    width: 1360px;
+    background: #F7F6F2;
     border-radius: 12px;
     text-align: center;
     justify-content: center;
@@ -341,44 +352,48 @@ li a{
 }
 
 
-.cta-card h2{
-  
+.cta-card h2 {
+
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
     color: #001931;
 }
 
-.cta-sub{
-    margin:16px;
+.cta-sub {
+    margin: 16px;
     font-size: 16px;
     font-weight: 400;
-    line-height: 24px;;
+    line-height: 24px;
+    ;
     color: #627382;
 }
 
-.cta-btn{
-    display: inline-flex;
+.cta-btn {
+
+    border: none;
+    cursor: pointer;
     align-items: center;
     gap: 24px;
     width: 194px;
     height: 52px;
-    background:#469165;
+    background: #469165;
     border-radius: 4px;
-    text-decoration: none;
     font-size: 16px;
     font-weight: 600;
     line-height: 19px;
     align-items: center;
     justify-content: center;
-    color:#FFFFFF;
+    color: #FFFFFF;
     padding: 12px 16px 12px 16px;
 
 }
-.cta-btn:hover{
-    color:darkgrey;
+
+.cta-btn:hover {
+    color: darkgrey;
 }
-.cta-note{
+
+.cta-note {
     margin: 16px 0;
     font-size: 16px;
     font-weight: 400;
@@ -397,7 +412,7 @@ li a{
 }
 
 .footer-top {
-   
+
     margin: auto;
     display: flex;
     justify-content: space-between;
@@ -414,7 +429,7 @@ li a{
     font-weight: 500;
     line-height: 28px;
     margin-bottom: 16px;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
 
 .footer-social .icons {
@@ -426,17 +441,18 @@ li a{
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background:#FFFFFF;
+    background: #FFFFFF;
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#001931;
+    color: #001931;
     text-decoration: none;
 }
+
 #footer hr {
     border: none;
     height: 1px;
-    background:rgba(229, 231, 235, 1);
+    background: rgba(229, 231, 235, 1);
     margin: 80px 0 30px;
     width: 1360px;
     opacity: 0.2;
@@ -447,6 +463,5 @@ li a{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    color:#FAFAFA;
+    color: #FAFAFA;
 }
-
